@@ -1,0 +1,120 @@
+.content {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-card {
+  padding: 10px;
+}
+.info-card-t {
+  padding: 15px;
+  background: linear-gradient(top, black 10%, orangered 75%, yellow);
+  border-radius: 5px;
+}
+.col-md-6 {
+  align-items: center;
+  padding-left: 30px;
+}
+.card-ban {
+  color: white;
+  height: auto;
+  width: 100%;
+}
+.direction {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header {
+  color: #36a0ff;
+  font-size: 27px;
+  padding: 10px;
+}
+
+.bigicon {
+  font-size: 35px;
+  color: #36a0ff;
+}
+.form-group {
+  padding: 10px;
+}
+.container {
+  align-items: center;
+}
+.Potaxios {
+  color: white;
+  font-family: "omori_game2";
+  width: 700px;
+  text-align: center;
+  margin-left: 60%;
+  font-size: 30px;
+  text-decoration: none;
+}
+.Potaxios:hover{
+  color: white;
+}
+
+
+@font-face {
+  font-family: "omori_game2regular";
+  src: url("omori_game2-webfont.woff2") format("woff2"),
+    url("tipografia/omori_game2-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  min-height: calc(100% - 4rem);
+}
+.footer {
+  background-color: #3459e6;
+  position: bottom;
+  float: left;
+  bottom: 0px;
+  left: 0;
+  right: 500px;
+  height: 64px;
+}
+
+p4 {
+  color: white;
+
+  margin-right: 50px;
+  text-decoration: none;
+
+  margin: 10px;
+  float: left;
+}
+
+p5 {
+  color: white;
+
+  margin-right: 50px;
+  border: 0px solid black;
+  margin: 20px;
+  float: right;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(202, 202, 202);
+}
+#ht {
+  margin-bottom: 15px;
+  height: auto;
+}
+.terminos {
+  color: #3459e6;
+}
+.buttonpro {
+  margin-bottom: 50px;
+
+}

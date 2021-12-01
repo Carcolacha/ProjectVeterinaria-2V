@@ -1,0 +1,30 @@
+.CatHappy {
+  max-width: 100%;
+  min-width: 50%;
+  height: auto;
+}
+.DogNose{
+    max-width: 100%;
+    min-width: 30%;
+    height: auto;
+}
+.imgFr{
+    width: 100%;
+    height: 90%;
+}
+.banimg{
+    background: url(../img/ban.webp);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.DogWhite {
+    width: 100%;
+    height: auto;
+}
+.imgDogHappy {
+    display: block;
+    float: right;
+}
